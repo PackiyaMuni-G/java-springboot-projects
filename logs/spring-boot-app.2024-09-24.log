@@ -1,0 +1,1098 @@
+2024-09-24T10:42:29.660+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24T10:42:29.674+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T10:42:31.132+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T10:42:31.147+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 JPA repository interfaces.
+2024-09-24T10:42:32.327+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-24T10:42:32.387+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T10:42:32.390+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24T10:42:32.584+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-09-24T10:42:32.585+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2799 ms
+2024-09-24T10:42:32.898+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T10:42:32.944+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T10:42:33.066+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T10:42:33.080+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Starting...
+2024-09-24T10:42:33.605+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-8 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2c34a5a8
+2024-09-24T10:42:33.611+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Start completed.
+2024-09-24T10:42:33.827+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T10:42:33.832+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:42:33.887+05:30  WARN 14252 --- [SpringBootRestCrud-1] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientsController': Lookup method resolution failed
+2024-09-24T10:42:33.890+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:42:33.898+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown initiated...
+2024-09-24T10:42:33.968+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-8 - Shutdown completed.
+2024-09-24T10:42:33.972+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2024-09-24T10:42:34.000+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-24T10:42:34.019+05:30 ERROR 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'clientsController': Lookup method resolution failed
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:498) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.determineCandidateConstructors(AutowiredAnnotationBeanPostProcessor.java:368) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.determineConstructorsFromBeanPostProcessors(AbstractAutowireCapableBeanFactory.java:1314) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1209) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:562) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:975) ~[spring-beans-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:971) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625) ~[spring-context-6.1.13.jar:6.1.13]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:335) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1363) ~[spring-boot-3.3.4.jar:3.3.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1352) ~[spring-boot-3.3.4.jar:3.3.4]
+	at com.springboot.crud.SpringBootRestCrud1Application.main(SpringBootRestCrud1Application.java:10) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.3.4.jar:3.3.4]
+Caused by: java.lang.IllegalStateException: Failed to introspect Class [com.springboot.crud.ClientsController] from ClassLoader [org.springframework.boot.devtools.restart.classloader.RestartClassLoader@33236ff5]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:483) ~[spring-core-6.1.13.jar:6.1.13]
+	at org.springframework.util.ReflectionUtils.doWithLocalMethods(ReflectionUtils.java:320) ~[spring-core-6.1.13.jar:6.1.13]
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.checkLookupMethods(AutowiredAnnotationBeanPostProcessor.java:476) ~[spring-beans-6.1.13.jar:6.1.13]
+	... 22 common frames omitted
+Caused by: java.lang.NoClassDefFoundError: Client
+	at java.base/java.lang.Class.getDeclaredMethods0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.privateGetDeclaredMethods(Class.java:3578) ~[na:na]
+	at java.base/java.lang.Class.getDeclaredMethods(Class.java:2676) ~[na:na]
+	at org.springframework.util.ReflectionUtils.getDeclaredMethods(ReflectionUtils.java:465) ~[spring-core-6.1.13.jar:6.1.13]
+	... 24 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Client
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641) ~[na:na]
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188) ~[na:na]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	at java.base/java.lang.Class.forName0(Native Method) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:534) ~[na:na]
+	at java.base/java.lang.Class.forName(Class.java:513) ~[na:na]
+	at org.springframework.boot.devtools.restart.classloader.RestartClassLoader.loadClass(RestartClassLoader.java:121) ~[spring-boot-devtools-3.3.4.jar:3.3.4]
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526) ~[na:na]
+	... 28 common frames omitted
+
+2024-09-24T10:42:53.666+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24T10:42:53.667+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T10:42:54.106+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T10:42:54.109+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 2 ms. Found 0 JPA repository interfaces.
+2024-09-24T10:42:54.506+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-24T10:42:54.518+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T10:42:54.519+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24T10:42:54.571+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-24T10:42:54.572+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 900 ms
+2024-09-24T10:42:54.675+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T10:42:54.684+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T10:42:54.705+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T10:42:54.707+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Starting...
+2024-09-24T10:42:54.753+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-9 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7fa26a53
+2024-09-24T10:42:54.754+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Start completed.
+2024-09-24T10:42:54.797+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T10:42:54.797+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:42:54.895+05:30  WARN 14252 --- [SpringBootRestCrud-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T10:42:55.721+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-24T10:42:55.785+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-24T10:42:55.801+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : Started SpringBootRestCrud1Application in 2.394 seconds (process running for 5248.215)
+2024-09-24T10:42:55.809+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-24T10:44:43.349+05:30  INFO 14252 --- [SpringBootRestCrud-1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 6 class path changes (6 additions, 0 deletions, 0 modifications)
+2024-09-24T10:44:43.391+05:30  INFO 14252 --- [SpringBootRestCrud-1] [Thread-31] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:44:43.393+05:30  INFO 14252 --- [SpringBootRestCrud-1] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown initiated...
+2024-09-24T10:44:43.416+05:30  INFO 14252 --- [SpringBootRestCrud-1] [Thread-31] com.zaxxer.hikari.HikariDataSource       : HikariPool-9 - Shutdown completed.
+2024-09-24T10:44:44.437+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24T10:44:44.438+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T10:44:45.697+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T10:44:45.749+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
+2024-09-24T10:44:46.380+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-24T10:44:46.384+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T10:44:46.386+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24T10:44:46.500+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-24T10:44:46.501+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2043 ms
+2024-09-24T10:44:46.781+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T10:44:46.808+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T10:44:46.885+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T10:44:46.892+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Starting...
+2024-09-24T10:44:46.977+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-10 - Added connection com.mysql.cj.jdbc.ConnectionImpl@17dc93d0
+2024-09-24T10:44:46.978+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Start completed.
+2024-09-24T10:44:47.399+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T10:44:47.697+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:44:48.194+05:30  WARN 14252 --- [SpringBootRestCrud-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T10:44:48.613+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-24T10:44:48.658+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-24T10:44:48.687+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : Started SpringBootRestCrud1Application in 4.436 seconds (process running for 5361.099)
+2024-09-24T10:44:48.690+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-24T10:44:54.611+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] .s.c.SpringBootRestCrud1ApplicationTests : Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 8124 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24T10:44:54.619+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] .s.c.SpringBootRestCrud1ApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T10:44:57.767+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T10:44:58.118+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 305 ms. Found 1 JPA repository interface.
+2024-09-24T10:45:00.730+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T10:45:01.041+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24T10:45:01.223+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T10:45:02.763+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T10:45:02.917+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-09-24T10:45:04.497+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@77856cc5
+2024-09-24T10:45:04.507+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-09-24T10:45:08.658+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T10:45:08.891+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:45:10.277+05:30  WARN 8124 --- [SpringBootRestCrud-1] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T10:45:11.876+05:30  INFO 8124 --- [SpringBootRestCrud-1] [main] .s.c.SpringBootRestCrud1ApplicationTests : Started SpringBootRestCrud1ApplicationTests in 18.477 seconds (process running for 23.395)
+2024-09-24T10:45:14.562+05:30  INFO 8124 --- [SpringBootRestCrud-1] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:45:14.570+05:30  INFO 8124 --- [SpringBootRestCrud-1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-09-24T10:45:14.603+05:30  INFO 8124 --- [SpringBootRestCrud-1] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-09-24T10:45:43.136+05:30  INFO 14252 --- [SpringBootRestCrud-1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2024-09-24T10:45:43.254+05:30  INFO 14252 --- [SpringBootRestCrud-1] [Thread-58] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:45:43.318+05:30  INFO 14252 --- [SpringBootRestCrud-1] [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown initiated...
+2024-09-24T10:45:43.425+05:30  INFO 14252 --- [SpringBootRestCrud-1] [Thread-58] com.zaxxer.hikari.HikariDataSource       : HikariPool-10 - Shutdown completed.
+2024-09-24T10:45:44.359+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24T10:45:44.361+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : No active profile set, falling back to 1 default profile: "default"
+2024-09-24T10:45:45.006+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24T10:45:45.033+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-09-24T10:45:45.648+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-09-24T10:45:45.652+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-09-24T10:45:45.652+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24T10:45:45.711+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.a.c.c.C.[Tomcat-1].[localhost].[/]     : Initializing Spring embedded WebApplicationContext
+2024-09-24T10:45:45.711+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1339 ms
+2024-09-24T10:45:45.833+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24T10:45:45.841+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-09-24T10:45:45.868+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24T10:45:45.871+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Starting...
+2024-09-24T10:45:45.949+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-11 - Added connection com.mysql.cj.jdbc.ConnectionImpl@337d2e45
+2024-09-24T10:45:45.950+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Start completed.
+2024-09-24T10:45:46.099+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24T10:45:46.140+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:45:46.412+05:30  WARN 14252 --- [SpringBootRestCrud-1] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24T10:45:46.781+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-09-24T10:45:46.823+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-09-24T10:45:46.838+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] c.s.crud.SpringBootRestCrud1Application  : Started SpringBootRestCrud1Application in 2.635 seconds (process running for 5419.25)
+2024-09-24T10:45:46.849+05:30  INFO 14252 --- [SpringBootRestCrud-1] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2024-09-24T10:47:26.623+05:30  INFO 14252 --- [SpringBootRestCrud-1] [File Watcher] rtingClassPathChangeChangedEventListener : Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2024-09-24T10:47:26.653+05:30  INFO 14252 --- [SpringBootRestCrud-1] [Thread-62] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24T10:47:26.656+05:30  INFO 14252 --- [SpringBootRestCrud-1] [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown initiated...
+2024-09-24T10:47:26.675+05:30  INFO 14252 --- [SpringBootRestCrud-1] [Thread-62] com.zaxxer.hikari.HikariDataSource       : HikariPool-11 - Shutdown completed.
+2024-09-24 10:50:26 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 10:50:26 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 10:50:27 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 10:50:27 - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-09-24 10:50:27 - Tomcat initialized with port 8080 (http)
+2024-09-24 10:50:27 - Starting service [Tomcat]
+2024-09-24 10:50:27 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 10:50:27 - Initializing Spring embedded WebApplicationContext
+2024-09-24 10:50:27 - Root WebApplicationContext: initialization completed in 991 ms
+2024-09-24 10:50:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 10:50:27 - HHH000026: Second-level cache disabled
+2024-09-24 10:50:27 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 10:50:27 - HikariPool-12 - Starting...
+2024-09-24 10:50:28 - HikariPool-12 - Added connection com.mysql.cj.jdbc.ConnectionImpl@72e3c627
+2024-09-24 10:50:28 - HikariPool-12 - Start completed.
+2024-09-24 10:50:28 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 10:50:28 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:50:28 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 10:50:28 - LiveReload server is running on port 35729
+2024-09-24 10:50:29 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 10:50:29 - Started SpringBootRestCrud1Application in 2.432 seconds (process running for 5701.441)
+2024-09-24 10:50:29 - Condition evaluation unchanged
+2024-09-24 10:53:13 - Restarting due to 8 class path changes (0 additions, 8 deletions, 0 modifications)
+2024-09-24 10:53:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:53:13 - HikariPool-12 - Shutdown initiated...
+2024-09-24 10:53:14 - HikariPool-12 - Shutdown completed.
+2024-09-24 10:53:19 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 10:53:19 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 10:53:21 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 10:53:21 - Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2024-09-24 10:53:22 - Tomcat initialized with port 8080 (http)
+2024-09-24 10:53:22 - Starting service [Tomcat]
+2024-09-24 10:53:22 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 10:53:22 - Initializing Spring embedded WebApplicationContext
+2024-09-24 10:53:22 - Root WebApplicationContext: initialization completed in 3420 ms
+2024-09-24 10:53:23 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 10:53:23 - HHH000026: Second-level cache disabled
+2024-09-24 10:53:23 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 10:53:23 - HikariPool-13 - Starting...
+2024-09-24 10:53:23 - HikariPool-13 - Added connection com.mysql.cj.jdbc.ConnectionImpl@52693100
+2024-09-24 10:53:23 - HikariPool-13 - Start completed.
+2024-09-24 10:53:24 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 10:53:24 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:53:25 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 10:53:26 - LiveReload server is running on port 35729
+2024-09-24 10:53:26 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 10:53:26 - Started SpringBootRestCrud1Application in 8.183 seconds (process running for 5878.686)
+2024-09-24 10:53:26 - Condition evaluation unchanged
+2024-09-24 10:54:04 - Restarting due to 8 class path changes (0 additions, 8 deletions, 0 modifications)
+2024-09-24 10:54:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:54:04 - HikariPool-13 - Shutdown initiated...
+2024-09-24 10:54:04 - HikariPool-13 - Shutdown completed.
+2024-09-24 10:54:07 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 10:54:07 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 10:54:08 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 10:54:08 - Finished Spring Data repository scanning in 1 ms. Found 0 JPA repository interfaces.
+2024-09-24 10:54:08 - Tomcat initialized with port 8080 (http)
+2024-09-24 10:54:08 - Starting service [Tomcat]
+2024-09-24 10:54:08 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 10:54:08 - Initializing Spring embedded WebApplicationContext
+2024-09-24 10:54:08 - Root WebApplicationContext: initialization completed in 1014 ms
+2024-09-24 10:54:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 10:54:08 - HHH000026: Second-level cache disabled
+2024-09-24 10:54:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 10:54:08 - HikariPool-14 - Starting...
+2024-09-24 10:54:08 - HikariPool-14 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4bb5129a
+2024-09-24 10:54:08 - HikariPool-14 - Start completed.
+2024-09-24 10:54:08 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 10:54:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:54:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 10:54:09 - LiveReload server is running on port 35729
+2024-09-24 10:54:09 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 10:54:09 - Started SpringBootRestCrud1Application in 2.108 seconds (process running for 5921.721)
+2024-09-24 10:54:09 - Condition evaluation unchanged
+2024-09-24 10:57:35 - Restarting due to 6 class path changes (6 additions, 0 deletions, 0 modifications)
+2024-09-24 10:57:35 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:57:35 - HikariPool-14 - Shutdown initiated...
+2024-09-24 10:57:35 - HikariPool-14 - Shutdown completed.
+2024-09-24 10:57:37 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 10:57:37 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 10:57:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 10:57:39 - Finished Spring Data repository scanning in 43 ms. Found 1 JPA repository interface.
+2024-09-24 10:57:40 - Tomcat initialized with port 8080 (http)
+2024-09-24 10:57:40 - Starting service [Tomcat]
+2024-09-24 10:57:40 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 10:57:40 - Initializing Spring embedded WebApplicationContext
+2024-09-24 10:57:40 - Root WebApplicationContext: initialization completed in 2851 ms
+2024-09-24 10:57:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 10:57:40 - HHH000026: Second-level cache disabled
+2024-09-24 10:57:40 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 10:57:40 - HikariPool-15 - Starting...
+2024-09-24 10:57:40 - HikariPool-15 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1ccac2e2
+2024-09-24 10:57:40 - HikariPool-15 - Start completed.
+2024-09-24 10:57:41 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 10:57:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:57:41 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 10:57:42 - LiveReload server is running on port 35729
+2024-09-24 10:57:42 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 10:57:42 - Started SpringBootRestCrud1Application in 5.26 seconds (process running for 6134.702)
+2024-09-24 10:57:42 - Condition evaluation unchanged
+2024-09-24 10:57:47 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 16472 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 10:57:47 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 10:57:50 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 10:57:51 - Finished Spring Data repository scanning in 262 ms. Found 1 JPA repository interface.
+2024-09-24 10:57:53 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 10:57:53 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 10:57:53 - HHH000026: Second-level cache disabled
+2024-09-24 10:57:55 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 10:57:55 - HikariPool-1 - Starting...
+2024-09-24 10:57:56 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@749ad37c
+2024-09-24 10:57:56 - HikariPool-1 - Start completed.
+2024-09-24 10:58:01 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 10:58:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:58:03 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 10:58:04 - Started SpringBootRestCrud1ApplicationTests in 18.452 seconds (process running for 23.504)
+2024-09-24 10:58:07 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 10:58:07 - HikariPool-1 - Shutdown initiated...
+2024-09-24 10:58:07 - HikariPool-1 - Shutdown completed.
+2024-09-24 11:01:22 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 6204 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 11:01:22 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 11:01:22 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-24 11:01:22 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-24 11:01:24 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 11:01:24 - Finished Spring Data repository scanning in 123 ms. Found 1 JPA repository interface.
+2024-09-24 11:01:26 - Tomcat initialized with port 8080 (http)
+2024-09-24 11:01:26 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-24 11:01:26 - Starting service [Tomcat]
+2024-09-24 11:01:26 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 11:01:26 - Initializing Spring embedded WebApplicationContext
+2024-09-24 11:01:26 - Root WebApplicationContext: initialization completed in 4184 ms
+2024-09-24 11:01:27 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 11:01:27 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 11:01:27 - HHH000026: Second-level cache disabled
+2024-09-24 11:01:28 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 11:01:28 - HikariPool-1 - Starting...
+2024-09-24 11:01:29 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1952ee44
+2024-09-24 11:01:29 - HikariPool-1 - Start completed.
+2024-09-24 11:01:32 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 11:01:32 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 11:01:33 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 11:01:34 - Unable to start LiveReload server
+2024-09-24 11:01:34 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-24 11:01:34 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-24 11:01:34 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 11:01:34 - HikariPool-1 - Shutdown initiated...
+2024-09-24 11:01:34 - HikariPool-1 - Shutdown completed.
+2024-09-24 11:01:34 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-24 11:01:34 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-24 11:04:00 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 21824 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 11:04:00 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 11:04:03 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 11:04:03 - Finished Spring Data repository scanning in 192 ms. Found 1 JPA repository interface.
+2024-09-24 11:04:05 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 11:04:05 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 11:04:05 - HHH000026: Second-level cache disabled
+2024-09-24 11:04:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 11:04:07 - HikariPool-1 - Starting...
+2024-09-24 11:04:09 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@749ad37c
+2024-09-24 11:04:09 - HikariPool-1 - Start completed.
+2024-09-24 11:04:13 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 11:04:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 11:04:14 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 11:04:16 - Started SpringBootRestCrud1ApplicationTests in 17.638 seconds (process running for 21.998)
+2024-09-24 11:04:18 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 11:04:18 - HikariPool-1 - Shutdown initiated...
+2024-09-24 11:04:18 - HikariPool-1 - Shutdown completed.
+2024-09-24 11:04:32 - Restarting due to 7 class path changes (0 additions, 0 deletions, 7 modifications)
+2024-09-24 11:04:32 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 11:04:33 - HikariPool-15 - Shutdown initiated...
+2024-09-24 11:04:33 - HikariPool-15 - Shutdown completed.
+2024-09-24 11:04:36 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 11:04:36 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 11:04:39 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 11:04:39 - Finished Spring Data repository scanning in 203 ms. Found 1 JPA repository interface.
+2024-09-24 11:04:41 - Tomcat initialized with port 8080 (http)
+2024-09-24 11:04:41 - Starting service [Tomcat]
+2024-09-24 11:04:41 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 11:04:42 - Initializing Spring embedded WebApplicationContext
+2024-09-24 11:04:42 - Root WebApplicationContext: initialization completed in 6085 ms
+2024-09-24 11:04:42 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 11:04:42 - HHH000026: Second-level cache disabled
+2024-09-24 11:04:42 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 11:04:42 - HikariPool-16 - Starting...
+2024-09-24 11:04:43 - HikariPool-16 - Added connection com.mysql.cj.jdbc.ConnectionImpl@13b87212
+2024-09-24 11:04:43 - HikariPool-16 - Start completed.
+2024-09-24 11:04:43 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 11:04:43 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 11:04:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 11:04:44 - LiveReload server is running on port 35729
+2024-09-24 11:04:44 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 11:04:44 - Started SpringBootRestCrud1Application in 9.94 seconds (process running for 6557.216)
+2024-09-24 11:04:44 - Condition evaluation unchanged
+2024-09-24 11:26:05 - HikariPool-16 - Thread starvation or clock leap detected (housekeeper delta=3m52s410ms930µs900ns).
+2024-09-24 11:27:51 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24 11:27:51 - Initializing Servlet 'dispatcherServlet'
+2024-09-24 11:27:51 - Completed initialization in 50 ms
+2024-09-24 11:34:08 - Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'PUT' is not supported]
+2024-09-24 11:42:37 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-24 11:42:37 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 11:42:37 - HikariPool-16 - Shutdown initiated...
+2024-09-24 11:42:38 - HikariPool-16 - Shutdown completed.
+2024-09-24 11:42:41 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 11:42:41 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 11:42:42 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 11:42:42 - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-09-24 11:42:42 - Tomcat initialized with port 8080 (http)
+2024-09-24 11:42:42 - Starting service [Tomcat]
+2024-09-24 11:42:42 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 11:42:43 - Initializing Spring embedded WebApplicationContext
+2024-09-24 11:42:43 - Root WebApplicationContext: initialization completed in 1716 ms
+2024-09-24 11:42:43 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 11:42:43 - HHH000026: Second-level cache disabled
+2024-09-24 11:42:43 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 11:42:43 - HikariPool-17 - Starting...
+2024-09-24 11:42:43 - HikariPool-17 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7d88a0da
+2024-09-24 11:42:43 - HikariPool-17 - Start completed.
+2024-09-24 11:42:43 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 11:42:43 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 11:42:44 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 11:42:44 - LiveReload server is running on port 35729
+2024-09-24 11:42:44 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 11:42:44 - Started SpringBootRestCrud1Application in 3.836 seconds (process running for 8836.945)
+2024-09-24 11:42:44 - Condition evaluation unchanged
+2024-09-24 11:43:06 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24 11:43:06 - Initializing Servlet 'dispatcherServlet'
+2024-09-24 11:43:06 - Completed initialization in 2 ms
+2024-09-24 12:30:51 - Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2024-09-24 12:30:52 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:30:53 - HikariPool-17 - Shutdown initiated...
+2024-09-24 12:30:53 - HikariPool-17 - Shutdown completed.
+2024-09-24 12:30:59 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 12:30:59 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 12:31:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 12:31:01 - Finished Spring Data repository scanning in 54 ms. Found 1 JPA repository interface.
+2024-09-24 12:31:02 - Tomcat initialized with port 8080 (http)
+2024-09-24 12:31:02 - Starting service [Tomcat]
+2024-09-24 12:31:02 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 12:31:02 - Initializing Spring embedded WebApplicationContext
+2024-09-24 12:31:02 - Root WebApplicationContext: initialization completed in 3603 ms
+2024-09-24 12:31:03 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 12:31:03 - HHH000026: Second-level cache disabled
+2024-09-24 12:31:03 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 12:31:03 - HikariPool-18 - Starting...
+2024-09-24 12:31:03 - HikariPool-18 - Added connection com.mysql.cj.jdbc.ConnectionImpl@418a1569
+2024-09-24 12:31:03 - HikariPool-18 - Start completed.
+2024-09-24 12:31:03 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 12:31:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:31:04 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 12:31:04 - LiveReload server is running on port 35729
+2024-09-24 12:31:04 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 12:31:04 - Started SpringBootRestCrud1Application in 6.307 seconds (process running for 11737.263)
+2024-09-24 12:31:04 - Condition evaluation unchanged
+2024-09-24 12:31:14 - Restarting due to 2 class path changes (1 addition, 1 deletion, 0 modifications)
+2024-09-24 12:31:14 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:31:14 - HikariPool-18 - Shutdown initiated...
+2024-09-24 12:31:14 - HikariPool-18 - Shutdown completed.
+2024-09-24 12:31:14 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 12:31:14 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 12:31:15 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 12:31:15 - Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interface.
+2024-09-24 12:31:15 - Tomcat initialized with port 8080 (http)
+2024-09-24 12:31:15 - Starting service [Tomcat]
+2024-09-24 12:31:15 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 12:31:15 - Initializing Spring embedded WebApplicationContext
+2024-09-24 12:31:15 - Root WebApplicationContext: initialization completed in 952 ms
+2024-09-24 12:31:15 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 12:31:16 - HHH000026: Second-level cache disabled
+2024-09-24 12:31:16 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 12:31:16 - HikariPool-19 - Starting...
+2024-09-24 12:31:16 - HikariPool-19 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5a0c58a2
+2024-09-24 12:31:16 - HikariPool-19 - Start completed.
+2024-09-24 12:31:16 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 12:31:16 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:31:16 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 12:31:16 - LiveReload server is running on port 35729
+2024-09-24 12:31:16 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 12:31:16 - Started SpringBootRestCrud1Application in 1.971 seconds (process running for 11749.217)
+2024-09-24 12:31:16 - Condition evaluation unchanged
+2024-09-24 12:36:28 - Restarting due to 1 class path change (1 addition, 0 deletions, 0 modifications)
+2024-09-24 12:36:29 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:36:29 - HikariPool-19 - Shutdown initiated...
+2024-09-24 12:36:29 - HikariPool-19 - Shutdown completed.
+2024-09-24 12:36:32 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 12:36:32 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 12:36:33 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 12:36:33 - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-09-24 12:36:33 - Tomcat initialized with port 8080 (http)
+2024-09-24 12:36:33 - Starting service [Tomcat]
+2024-09-24 12:36:33 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 12:36:34 - Initializing Spring embedded WebApplicationContext
+2024-09-24 12:36:34 - Root WebApplicationContext: initialization completed in 1090 ms
+2024-09-24 12:36:34 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 12:36:34 - HHH000026: Second-level cache disabled
+2024-09-24 12:36:34 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 12:36:34 - HikariPool-20 - Starting...
+2024-09-24 12:36:34 - HikariPool-20 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7aa4da96
+2024-09-24 12:36:34 - HikariPool-20 - Start completed.
+2024-09-24 12:36:34 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 12:36:34 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:36:34 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 12:36:35 - LiveReload server is running on port 35729
+2024-09-24 12:36:35 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 12:36:35 - Started SpringBootRestCrud1Application in 3.103 seconds (process running for 12067.821)
+2024-09-24 12:36:35 - Condition evaluation unchanged
+2024-09-24 12:45:08 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-24 12:45:08 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:45:08 - HikariPool-20 - Shutdown initiated...
+2024-09-24 12:45:08 - HikariPool-20 - Shutdown completed.
+2024-09-24 12:45:10 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 12:45:10 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 12:45:11 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 12:45:11 - Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interface.
+2024-09-24 12:45:11 - Tomcat initialized with port 8080 (http)
+2024-09-24 12:45:12 - Starting service [Tomcat]
+2024-09-24 12:45:12 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 12:45:12 - Initializing Spring embedded WebApplicationContext
+2024-09-24 12:45:12 - Root WebApplicationContext: initialization completed in 1843 ms
+2024-09-24 12:45:12 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 12:45:12 - HHH000026: Second-level cache disabled
+2024-09-24 12:45:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 12:45:12 - HikariPool-21 - Starting...
+2024-09-24 12:45:12 - HikariPool-21 - Added connection com.mysql.cj.jdbc.ConnectionImpl@14063dd3
+2024-09-24 12:45:12 - HikariPool-21 - Start completed.
+2024-09-24 12:45:12 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 12:45:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:45:13 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientsController' defined in file [C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes\com\springboot\crud\controller\ClientsController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.springboot.crud.service.ClientService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-09-24 12:45:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:45:13 - HikariPool-21 - Shutdown initiated...
+2024-09-24 12:45:13 - HikariPool-21 - Shutdown completed.
+2024-09-24 12:45:13 - Stopping service [Tomcat]
+2024-09-24 12:45:13 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-24 12:45:13 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springboot.crud.controller.ClientsController required a bean of type 'com.springboot.crud.service.ClientService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.springboot.crud.service.ClientService' in your configuration.
+
+2024-09-24 12:46:36 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 12:46:36 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 12:46:37 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 12:46:37 - Finished Spring Data repository scanning in 29 ms. Found 1 JPA repository interface.
+2024-09-24 12:46:37 - Tomcat initialized with port 8080 (http)
+2024-09-24 12:46:37 - Starting service [Tomcat]
+2024-09-24 12:46:37 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 12:46:38 - Initializing Spring embedded WebApplicationContext
+2024-09-24 12:46:38 - Root WebApplicationContext: initialization completed in 1331 ms
+2024-09-24 12:46:38 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 12:46:38 - HHH000026: Second-level cache disabled
+2024-09-24 12:46:38 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 12:46:38 - HikariPool-22 - Starting...
+2024-09-24 12:46:38 - HikariPool-22 - Added connection com.mysql.cj.jdbc.ConnectionImpl@198787a
+2024-09-24 12:46:38 - HikariPool-22 - Start completed.
+2024-09-24 12:46:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 12:46:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:46:38 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientsController' defined in file [C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes\com\springboot\crud\controller\ClientsController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.springboot.crud.service.ClientService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-09-24 12:46:38 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:46:38 - HikariPool-22 - Shutdown initiated...
+2024-09-24 12:46:38 - HikariPool-22 - Shutdown completed.
+2024-09-24 12:46:38 - Stopping service [Tomcat]
+2024-09-24 12:46:38 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-24 12:46:38 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springboot.crud.controller.ClientsController required a bean of type 'com.springboot.crud.service.ClientService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.springboot.crud.service.ClientService' in your configuration.
+
+2024-09-24 12:53:58 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 12:53:58 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 12:53:59 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 12:53:59 - Finished Spring Data repository scanning in 26 ms. Found 1 JPA repository interface.
+2024-09-24 12:53:59 - Tomcat initialized with port 8080 (http)
+2024-09-24 12:53:59 - Starting service [Tomcat]
+2024-09-24 12:53:59 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 12:53:59 - Initializing Spring embedded WebApplicationContext
+2024-09-24 12:53:59 - Root WebApplicationContext: initialization completed in 1007 ms
+2024-09-24 12:53:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 12:53:59 - HHH000026: Second-level cache disabled
+2024-09-24 12:53:59 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 12:53:59 - HikariPool-23 - Starting...
+2024-09-24 12:54:00 - HikariPool-23 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7a318d8a
+2024-09-24 12:54:00 - HikariPool-23 - Start completed.
+2024-09-24 12:54:00 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 12:54:00 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:54:00 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'clientsController' defined in file [C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes\com\springboot\crud\controller\ClientsController.class]: Unsatisfied dependency expressed through constructor parameter 0: No qualifying bean of type 'com.springboot.crud.service.ClientService' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {}
+2024-09-24 12:54:00 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:54:00 - HikariPool-23 - Shutdown initiated...
+2024-09-24 12:54:00 - HikariPool-23 - Shutdown completed.
+2024-09-24 12:54:00 - Stopping service [Tomcat]
+2024-09-24 12:54:00 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-24 12:54:00 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of constructor in com.springboot.crud.controller.ClientsController required a bean of type 'com.springboot.crud.service.ClientService' that could not be found.
+
+
+Action:
+
+Consider defining a bean of type 'com.springboot.crud.service.ClientService' in your configuration.
+
+2024-09-24 12:54:28 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 12:54:28 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 12:54:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 12:54:29 - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interface.
+2024-09-24 12:54:29 - Tomcat initialized with port 8080 (http)
+2024-09-24 12:54:29 - Starting service [Tomcat]
+2024-09-24 12:54:29 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 12:54:30 - Initializing Spring embedded WebApplicationContext
+2024-09-24 12:54:30 - Root WebApplicationContext: initialization completed in 1223 ms
+2024-09-24 12:54:30 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 12:54:30 - HHH000026: Second-level cache disabled
+2024-09-24 12:54:30 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 12:54:30 - HikariPool-24 - Starting...
+2024-09-24 12:54:30 - HikariPool-24 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5cb7c7fe
+2024-09-24 12:54:30 - HikariPool-24 - Start completed.
+2024-09-24 12:54:30 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 12:54:30 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 12:54:30 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 12:54:32 - LiveReload server is running on port 35729
+2024-09-24 12:54:32 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 12:54:32 - Started SpringBootRestCrud1Application in 3.619 seconds (process running for 13144.683)
+2024-09-24 12:54:32 - Condition evaluation unchanged
+2024-09-24 12:56:35 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24 12:56:35 - Initializing Servlet 'dispatcherServlet'
+2024-09-24 12:56:35 - Completed initialization in 3 ms
+2024-09-24 13:08:56 - Restarting due to 8 class path changes (0 additions, 0 deletions, 8 modifications)
+2024-09-24 13:08:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 13:08:57 - HikariPool-24 - Shutdown initiated...
+2024-09-24 13:08:59 - HikariPool-24 - Shutdown completed.
+2024-09-24 13:09:09 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 13:09:09 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 13:09:10 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 13:09:10 - Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interface.
+2024-09-24 13:09:11 - Tomcat initialized with port 8080 (http)
+2024-09-24 13:09:11 - Starting service [Tomcat]
+2024-09-24 13:09:11 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 13:09:12 - Initializing Spring embedded WebApplicationContext
+2024-09-24 13:09:12 - Root WebApplicationContext: initialization completed in 2673 ms
+2024-09-24 13:09:12 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 13:09:12 - HHH000026: Second-level cache disabled
+2024-09-24 13:09:12 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 13:09:12 - HikariPool-25 - Starting...
+2024-09-24 13:09:13 - HikariPool-25 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7c5a10fe
+2024-09-24 13:09:13 - HikariPool-25 - Start completed.
+2024-09-24 13:09:13 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 13:09:13 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 13:09:15 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 13:09:16 - LiveReload server is running on port 35729
+2024-09-24 13:09:16 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 13:09:16 - Started SpringBootRestCrud1Application in 10.049 seconds (process running for 14029.083)
+2024-09-24 13:09:16 - Condition evaluation unchanged
+2024-09-24 13:32:34 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 14196 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 13:32:34 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 13:32:37 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 13:32:38 - Finished Spring Data repository scanning in 220 ms. Found 1 JPA repository interface.
+2024-09-24 13:32:40 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 13:32:41 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 13:32:41 - HHH000026: Second-level cache disabled
+2024-09-24 13:32:43 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 13:32:43 - HikariPool-1 - Starting...
+2024-09-24 13:32:45 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@351ede23
+2024-09-24 13:32:45 - HikariPool-1 - Start completed.
+2024-09-24 13:32:49 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 13:32:49 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 13:32:51 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 13:32:52 - Started SpringBootRestCrud1ApplicationTests in 20.403 seconds (process running for 26.831)
+2024-09-24 13:32:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 13:32:57 - HikariPool-1 - Shutdown initiated...
+2024-09-24 13:32:57 - HikariPool-1 - Shutdown completed.
+2024-09-24 13:38:54 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 3780 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 13:38:54 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 13:38:57 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 13:38:57 - Finished Spring Data repository scanning in 172 ms. Found 1 JPA repository interface.
+2024-09-24 13:38:59 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 13:38:59 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 13:39:00 - HHH000026: Second-level cache disabled
+2024-09-24 13:39:01 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 13:39:01 - HikariPool-1 - Starting...
+2024-09-24 13:39:03 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@351ede23
+2024-09-24 13:39:03 - HikariPool-1 - Start completed.
+2024-09-24 13:39:06 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 13:39:06 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 13:39:08 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 13:39:09 - Started SpringBootRestCrud1ApplicationTests in 16.914 seconds (process running for 22.193)
+2024-09-24 13:39:13 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 13:39:13 - HikariPool-1 - Shutdown initiated...
+2024-09-24 13:39:13 - HikariPool-1 - Shutdown completed.
+2024-09-24 14:57:02 - HikariPool-25 - Thread starvation or clock leap detected (housekeeper delta=59m48s732ms88µs100ns).
+2024-09-24 15:13:17 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 18512 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 15:13:17 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 15:13:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 15:13:20 - Finished Spring Data repository scanning in 228 ms. Found 1 JPA repository interface.
+2024-09-24 15:13:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 15:13:23 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 15:13:23 - HHH000026: Second-level cache disabled
+2024-09-24 15:13:24 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 15:13:24 - HikariPool-1 - Starting...
+2024-09-24 15:13:26 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f68e4e8
+2024-09-24 15:13:26 - HikariPool-1 - Start completed.
+2024-09-24 15:13:31 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 15:13:31 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:13:33 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 15:13:35 - Started SpringBootRestCrud1ApplicationTests in 20.078 seconds (process running for 25.649)
+2024-09-24 15:13:39 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:13:39 - HikariPool-1 - Shutdown initiated...
+2024-09-24 15:13:39 - HikariPool-1 - Shutdown completed.
+2024-09-24 15:18:56 - Restarting due to 8 class path changes (0 additions, 0 deletions, 8 modifications)
+2024-09-24 15:18:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:18:57 - HikariPool-25 - Shutdown initiated...
+2024-09-24 15:18:57 - HikariPool-25 - Shutdown completed.
+2024-09-24 15:19:03 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 15:19:03 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 15:19:06 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 15:19:06 - Finished Spring Data repository scanning in 197 ms. Found 1 JPA repository interface.
+2024-09-24 15:19:07 - Tomcat initialized with port 8080 (http)
+2024-09-24 15:19:07 - Starting service [Tomcat]
+2024-09-24 15:19:07 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 15:19:07 - Initializing Spring embedded WebApplicationContext
+2024-09-24 15:19:07 - Root WebApplicationContext: initialization completed in 3889 ms
+2024-09-24 15:19:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 15:19:08 - HHH000026: Second-level cache disabled
+2024-09-24 15:19:08 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 15:19:08 - HikariPool-26 - Starting...
+2024-09-24 15:19:08 - HikariPool-26 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5c84e48b
+2024-09-24 15:19:08 - HikariPool-26 - Start completed.
+2024-09-24 15:19:08 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 15:19:08 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:19:09 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 15:19:10 - LiveReload server is running on port 35729
+2024-09-24 15:19:10 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 15:19:10 - Started SpringBootRestCrud1Application in 8.702 seconds (process running for 21822.736)
+2024-09-24 15:19:10 - Condition evaluation unchanged
+2024-09-24 15:19:56 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 10740 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 15:19:56 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 15:19:59 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 15:19:59 - Finished Spring Data repository scanning in 196 ms. Found 1 JPA repository interface.
+2024-09-24 15:20:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 15:20:02 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 15:20:02 - HHH000026: Second-level cache disabled
+2024-09-24 15:20:05 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 15:20:05 - HikariPool-1 - Starting...
+2024-09-24 15:20:06 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@351ede23
+2024-09-24 15:20:06 - HikariPool-1 - Start completed.
+2024-09-24 15:20:11 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 15:20:11 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:20:13 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 15:20:15 - Started SpringBootRestCrud1ApplicationTests in 20.305 seconds (process running for 24.571)
+2024-09-24 15:20:20 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:20:20 - HikariPool-1 - Shutdown initiated...
+2024-09-24 15:20:20 - HikariPool-1 - Shutdown completed.
+2024-09-24 15:25:42 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 22120 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 15:25:42 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 15:25:45 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 15:25:45 - Finished Spring Data repository scanning in 183 ms. Found 1 JPA repository interface.
+2024-09-24 15:25:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 15:25:48 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 15:25:48 - HHH000026: Second-level cache disabled
+2024-09-24 15:25:50 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 15:25:50 - HikariPool-1 - Starting...
+2024-09-24 15:25:51 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f68e4e8
+2024-09-24 15:25:51 - HikariPool-1 - Start completed.
+2024-09-24 15:25:55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 15:25:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:25:57 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 15:25:59 - Started SpringBootRestCrud1ApplicationTests in 18.914 seconds (process running for 23.664)
+2024-09-24 15:26:04 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:26:04 - HikariPool-1 - Shutdown initiated...
+2024-09-24 15:26:04 - HikariPool-1 - Shutdown completed.
+2024-09-24 15:31:55 - Restarting due to 9 class path changes (0 additions, 9 deletions, 0 modifications)
+2024-09-24 15:31:55 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:31:56 - HikariPool-26 - Shutdown initiated...
+2024-09-24 15:31:56 - HikariPool-26 - Shutdown completed.
+2024-09-24 15:32:03 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 15:32:03 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 15:32:04 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 15:32:04 - Finished Spring Data repository scanning in 37 ms. Found 1 JPA repository interface.
+2024-09-24 15:32:05 - Tomcat initialized with port 8080 (http)
+2024-09-24 15:32:05 - Starting service [Tomcat]
+2024-09-24 15:32:05 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 15:32:05 - Initializing Spring embedded WebApplicationContext
+2024-09-24 15:32:05 - Root WebApplicationContext: initialization completed in 2578 ms
+2024-09-24 15:32:05 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 15:32:05 - HHH000026: Second-level cache disabled
+2024-09-24 15:32:05 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 15:32:05 - HikariPool-27 - Starting...
+2024-09-24 15:32:06 - HikariPool-27 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5d422d0a
+2024-09-24 15:32:06 - HikariPool-27 - Start completed.
+2024-09-24 15:32:07 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 15:32:07 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:32:07 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 15:32:08 - LiveReload server is running on port 35729
+2024-09-24 15:32:08 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 15:32:08 - Started SpringBootRestCrud1Application in 7.568 seconds (process running for 22601.044)
+2024-09-24 15:32:08 - Condition evaluation unchanged
+2024-09-24 15:32:27 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 23080 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 15:32:27 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 15:32:29 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 15:32:30 - Finished Spring Data repository scanning in 185 ms. Found 1 JPA repository interface.
+2024-09-24 15:32:32 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 15:32:32 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 15:32:32 - HHH000026: Second-level cache disabled
+2024-09-24 15:32:34 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 15:32:35 - HikariPool-1 - Starting...
+2024-09-24 15:32:36 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f68e4e8
+2024-09-24 15:32:36 - HikariPool-1 - Start completed.
+2024-09-24 15:32:40 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 15:32:41 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:32:42 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 15:32:44 - Started SpringBootRestCrud1ApplicationTests in 18.852 seconds (process running for 24.236)
+2024-09-24 15:32:49 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:32:49 - HikariPool-1 - Shutdown initiated...
+2024-09-24 15:32:49 - HikariPool-1 - Shutdown completed.
+2024-09-24 15:42:46 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 19868 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 15:42:46 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 15:42:49 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 15:42:50 - Finished Spring Data repository scanning in 219 ms. Found 1 JPA repository interface.
+2024-09-24 15:42:52 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 15:42:53 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 15:42:53 - HHH000026: Second-level cache disabled
+2024-09-24 15:42:54 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 15:42:55 - HikariPool-1 - Starting...
+2024-09-24 15:42:56 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3f45dfec
+2024-09-24 15:42:56 - HikariPool-1 - Start completed.
+2024-09-24 15:43:00 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 15:43:01 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:43:02 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 15:43:04 - Started SpringBootRestCrud1ApplicationTests in 21.561 seconds (process running for 26.714)
+2024-09-24 15:43:10 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:43:10 - HikariPool-1 - Shutdown initiated...
+2024-09-24 15:43:10 - HikariPool-1 - Shutdown completed.
+2024-09-24 15:43:58 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 18876 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 15:43:58 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 15:44:02 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 15:44:02 - Finished Spring Data repository scanning in 213 ms. Found 1 JPA repository interface.
+2024-09-24 15:44:05 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 15:44:05 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 15:44:06 - HHH000026: Second-level cache disabled
+2024-09-24 15:44:07 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 15:44:08 - HikariPool-1 - Starting...
+2024-09-24 15:44:09 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a819901
+2024-09-24 15:44:09 - HikariPool-1 - Start completed.
+2024-09-24 15:44:15 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 15:44:15 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:44:17 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 15:44:20 - Started SpringBootRestCrud1ApplicationTests in 23.819 seconds (process running for 30.921)
+2024-09-24 15:44:25 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:44:26 - HikariPool-1 - Shutdown initiated...
+2024-09-24 15:44:26 - HikariPool-1 - Shutdown completed.
+2024-09-24 15:56:40 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 17944 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 15:56:40 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 15:57:02 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 15:57:02 - Finished Spring Data repository scanning in 456 ms. Found 1 JPA repository interface.
+2024-09-24 15:57:08 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 15:57:09 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 15:57:09 - HHH000026: Second-level cache disabled
+2024-09-24 15:57:13 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 15:57:14 - HikariPool-1 - Starting...
+2024-09-24 15:57:17 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2f0cab82
+2024-09-24 15:57:17 - HikariPool-1 - Start completed.
+2024-09-24 15:57:22 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 15:57:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:57:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 15:57:27 - Started SpringBootRestCrud1ApplicationTests in 51.187 seconds (process running for 60.79)
+2024-09-24 15:57:33 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 15:57:33 - HikariPool-1 - Shutdown initiated...
+2024-09-24 15:57:33 - HikariPool-1 - Shutdown completed.
+2024-09-24 16:01:13 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-24 16:01:14 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:01:14 - HikariPool-27 - Shutdown initiated...
+2024-09-24 16:01:14 - HikariPool-27 - Shutdown completed.
+2024-09-24 16:01:18 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 16:01:18 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 16:01:20 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 16:01:20 - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-09-24 16:01:21 - Tomcat initialized with port 8080 (http)
+2024-09-24 16:01:21 - Starting service [Tomcat]
+2024-09-24 16:01:21 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 16:01:21 - Initializing Spring embedded WebApplicationContext
+2024-09-24 16:01:21 - Root WebApplicationContext: initialization completed in 2872 ms
+2024-09-24 16:01:22 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 16:01:22 - HHH000026: Second-level cache disabled
+2024-09-24 16:01:22 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 16:01:22 - HikariPool-28 - Starting...
+2024-09-24 16:01:23 - HikariPool-28 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7f79be77
+2024-09-24 16:01:23 - HikariPool-28 - Start completed.
+2024-09-24 16:01:23 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 16:01:23 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:01:24 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 16:01:25 - LiveReload server is running on port 35729
+2024-09-24 16:01:25 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 16:01:25 - Started SpringBootRestCrud1Application in 7.587 seconds (process running for 24357.874)
+2024-09-24 16:01:25 - Condition evaluation unchanged
+2024-09-24 16:01:35 - Starting SpringBootRestCrud1ApplicationTests using Java 21.0.3 with PID 5960 (started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 16:01:35 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 16:01:38 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 16:01:38 - Finished Spring Data repository scanning in 268 ms. Found 1 JPA repository interface.
+2024-09-24 16:01:41 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 16:01:42 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 16:01:42 - HHH000026: Second-level cache disabled
+2024-09-24 16:01:45 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 16:01:45 - HikariPool-1 - Starting...
+2024-09-24 16:01:47 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@5788722f
+2024-09-24 16:01:47 - HikariPool-1 - Start completed.
+2024-09-24 16:01:53 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 16:01:53 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:01:55 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 16:01:57 - Started SpringBootRestCrud1ApplicationTests in 24.805 seconds (process running for 30.879)
+2024-09-24 16:02:03 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:02:03 - HikariPool-1 - Shutdown initiated...
+2024-09-24 16:02:03 - HikariPool-1 - Shutdown completed.
+2024-09-24 16:10:53 - Restarting due to 1 class path change (0 additions, 0 deletions, 1 modification)
+2024-09-24 16:10:53 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:10:54 - HikariPool-28 - Shutdown initiated...
+2024-09-24 16:10:54 - HikariPool-28 - Shutdown completed.
+2024-09-24 16:10:59 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 16:10:59 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 16:11:01 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 16:11:01 - Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
+2024-09-24 16:11:01 - Tomcat initialized with port 8080 (http)
+2024-09-24 16:11:01 - Starting service [Tomcat]
+2024-09-24 16:11:01 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 16:11:01 - Initializing Spring embedded WebApplicationContext
+2024-09-24 16:11:01 - Root WebApplicationContext: initialization completed in 2321 ms
+2024-09-24 16:11:02 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 16:11:02 - HHH000026: Second-level cache disabled
+2024-09-24 16:11:02 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 16:11:02 - HikariPool-29 - Starting...
+2024-09-24 16:11:02 - HikariPool-29 - Added connection com.mysql.cj.jdbc.ConnectionImpl@612ab92c
+2024-09-24 16:11:02 - HikariPool-29 - Start completed.
+2024-09-24 16:11:03 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 16:11:03 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:11:04 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 16:11:05 - LiveReload server is running on port 35729
+2024-09-24 16:11:05 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 16:11:05 - Started SpringBootRestCrud1Application in 8.129 seconds (process running for 24937.647)
+2024-09-24 16:11:05 - Condition evaluation unchanged
+2024-09-24 16:13:42 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-24 16:13:42 - Initializing Servlet 'dispatcherServlet'
+2024-09-24 16:13:42 - Completed initialization in 4 ms
+2024-09-24 16:24:07 - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-09-24 16:24:09 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:24:10 - HikariPool-29 - Shutdown initiated...
+2024-09-24 16:24:10 - HikariPool-29 - Shutdown completed.
+2024-09-24 16:24:15 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 16:24:15 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 16:24:17 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 16:24:18 - Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interface.
+2024-09-24 16:24:18 - Tomcat initialized with port 8080 (http)
+2024-09-24 16:24:18 - Starting service [Tomcat]
+2024-09-24 16:24:18 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 16:24:18 - Initializing Spring embedded WebApplicationContext
+2024-09-24 16:24:18 - Root WebApplicationContext: initialization completed in 2976 ms
+2024-09-24 16:24:19 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 16:24:19 - HHH000026: Second-level cache disabled
+2024-09-24 16:24:19 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 16:24:19 - HikariPool-30 - Starting...
+2024-09-24 16:24:19 - HikariPool-30 - Added connection com.mysql.cj.jdbc.ConnectionImpl@426296cf
+2024-09-24 16:24:19 - HikariPool-30 - Start completed.
+2024-09-24 16:24:19 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 16:24:19 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:24:21 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 16:24:21 - LiveReload server is running on port 35729
+2024-09-24 16:24:21 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 16:24:21 - Started SpringBootRestCrud1Application in 6.901 seconds (process running for 25734.361)
+2024-09-24 16:24:21 - Condition evaluation unchanged
+2024-09-24 16:24:39 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 22516 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 16:24:39 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 16:24:39 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-24 16:24:39 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-24 16:24:43 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 16:24:44 - Finished Spring Data repository scanning in 163 ms. Found 1 JPA repository interface.
+2024-09-24 16:24:46 - Tomcat initialized with port 8080 (http)
+2024-09-24 16:24:46 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-24 16:24:46 - Starting service [Tomcat]
+2024-09-24 16:24:46 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 16:24:46 - Initializing Spring embedded WebApplicationContext
+2024-09-24 16:24:46 - Root WebApplicationContext: initialization completed in 7135 ms
+2024-09-24 16:24:48 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 16:24:48 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 16:24:48 - HHH000026: Second-level cache disabled
+2024-09-24 16:24:50 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 16:24:50 - HikariPool-1 - Starting...
+2024-09-24 16:24:51 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6bea1391
+2024-09-24 16:24:51 - HikariPool-1 - Start completed.
+2024-09-24 16:24:55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 16:24:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:24:56 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 16:24:57 - Unable to start LiveReload server
+2024-09-24 16:24:57 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-24 16:24:57 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-24 16:24:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:24:57 - HikariPool-1 - Shutdown initiated...
+2024-09-24 16:24:57 - HikariPool-1 - Shutdown completed.
+2024-09-24 16:24:57 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-24 16:24:58 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-24 16:25:30 - Restarting due to 2 class path changes (0 additions, 0 deletions, 2 modifications)
+2024-09-24 16:25:31 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:25:31 - HikariPool-30 - Shutdown initiated...
+2024-09-24 16:25:31 - HikariPool-30 - Shutdown completed.
+2024-09-24 16:25:35 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 14252 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 16:25:35 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 16:25:36 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 16:25:36 - Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interface.
+2024-09-24 16:25:37 - Tomcat initialized with port 8080 (http)
+2024-09-24 16:25:37 - Starting service [Tomcat]
+2024-09-24 16:25:37 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 16:25:37 - Initializing Spring embedded WebApplicationContext
+2024-09-24 16:25:37 - Root WebApplicationContext: initialization completed in 2043 ms
+2024-09-24 16:25:37 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 16:25:37 - HHH000026: Second-level cache disabled
+2024-09-24 16:25:37 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 16:25:37 - HikariPool-31 - Starting...
+2024-09-24 16:25:37 - HikariPool-31 - Added connection com.mysql.cj.jdbc.ConnectionImpl@29d4baca
+2024-09-24 16:25:37 - HikariPool-31 - Start completed.
+2024-09-24 16:25:38 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 16:25:38 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:25:38 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 16:25:39 - LiveReload server is running on port 35729
+2024-09-24 16:25:39 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-24 16:25:39 - Started SpringBootRestCrud1Application in 4.554 seconds (process running for 25811.765)
+2024-09-24 16:25:39 - Condition evaluation unchanged
+2024-09-24 16:25:42 - Starting SpringBootRestCrud1Application using Java 21.0.3 with PID 20180 (C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1\target\classes started by WELCOME in C:\Users\WELCOME\Documents\workspace-spring-tool-suite-4-4.23.1.RELEASE\SpringBootRestCrud-1)
+2024-09-24 16:25:42 - No active profile set, falling back to 1 default profile: "default"
+2024-09-24 16:25:43 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-24 16:25:43 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-24 16:25:45 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-24 16:25:45 - Finished Spring Data repository scanning in 140 ms. Found 1 JPA repository interface.
+2024-09-24 16:25:47 - Tomcat initialized with port 8080 (http)
+2024-09-24 16:25:47 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-24 16:25:47 - Starting service [Tomcat]
+2024-09-24 16:25:47 - Starting Servlet engine: [Apache Tomcat/10.1.30]
+2024-09-24 16:25:47 - Initializing Spring embedded WebApplicationContext
+2024-09-24 16:25:47 - Root WebApplicationContext: initialization completed in 4298 ms
+2024-09-24 16:25:47 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-24 16:25:48 - HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-09-24 16:25:48 - HHH000026: Second-level cache disabled
+2024-09-24 16:25:49 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-24 16:25:49 - HikariPool-1 - Starting...
+2024-09-24 16:25:51 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4298e679
+2024-09-24 16:25:51 - HikariPool-1 - Start completed.
+2024-09-24 16:25:55 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-24 16:25:55 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:25:56 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-24 16:25:57 - Unable to start LiveReload server
+2024-09-24 16:25:57 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-24 16:25:57 - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'
+2024-09-24 16:25:57 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 16:25:57 - HikariPool-1 - Shutdown initiated...
+2024-09-24 16:25:57 - HikariPool-1 - Shutdown completed.
+2024-09-24 16:25:57 - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2024-09-24 16:25:57 - 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8080 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8080 or configure this application to listen on another port.
+
+2024-09-24 23:07:34 - HikariPool-31 - Thread starvation or clock leap detected (housekeeper delta=2h36m18s747ms825µs800ns).
+2024-09-24 23:08:24 - Application shutdown requested.
+2024-09-24 23:08:24 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-24 23:08:24 - HikariPool-31 - Shutdown initiated...
+2024-09-24 23:08:24 - HikariPool-31 - Shutdown completed.
