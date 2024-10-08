@@ -21,6 +21,10 @@ public class Client {
 	public String getEmail() {
 		return email;
 	}
+	@Override
+	public String toString() {
+		return "Client [id=" + id + ", name=" + name + ", email=" + email + "]";
+	}
 	public Client(Long id, String name, String email) {
 		super();
 		this.id = id;

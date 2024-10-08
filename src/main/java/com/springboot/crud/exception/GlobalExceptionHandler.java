@@ -1,3 +1,4 @@
+
 package com.springboot.crud.exception;
 
 import org.springframework.http.HttpStatus;
